@@ -1,0 +1,89 @@
+.mini-nav{
+    background-color: black;
+    color: lightslategray;
+}
+#body{
+    position:relative;
+    @media screen {width: 700px;
+        
+    }
+
+}
+.button{
+    background-color: aliceblue;
+    display: flex;
+    gap: 100px;
+}
+button{
+    border: solid 1px aliceblue;
+
+    
+
+}
+#hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('photos/home.png');
+    background-repeat: no-repeat;
+    background-attachment:local; 
+    background-size: 100% 100%;
+    background-color: lightslategrey;
+    width: 100%;
+    height: 480PX;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    color: #ddd;
+    font-size: 50px;  
+
+
+}
+.cylinder{
+    display: flex;
+    gap: 15px;
+}
+.figure{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    height: 150;
+ 
+}
+.service{
+    display: flex;
+    gap: 10px;
+}
+.text{
+    display: flex;
+    gap: 40px;
+}
+.background-image{
+display: flex;
+   
+
+}
+.b-text{
+    background-image: url('photos/cartons.webp');
+    background-repeat: no-repeat;
+    background-attachment:local; 
+    background-size: 100% 100%;
+    background-color: lightslategrey;
+    width: 100%;
+    height: 480PX;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    color:black;
+    font-size: 50px; 
+    font-size: medium;
+    display: flex;
+    
+}
+.box-text{
+    background-color: aliceblue;
+    border: solid 12px white;
+    height: 400px;
+    width:80%;
+}
+#form{
+    display: flex;
+    
+}
