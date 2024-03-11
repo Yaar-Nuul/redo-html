@@ -4,11 +4,15 @@
 }
 #body{
     position:relative;
-    @media screen {width: 700px;
-        
-    }
 
 }
+@media screen and (max-width: 767px) and (max-width: 1023px){
+
+}
+@media screen and (min-width:1024px) {
+    
+}
+
 .button{
     background-color: aliceblue;
     display: flex;
@@ -58,9 +62,11 @@ button{
 .background-image{
     background-image: url(photos/cartons.webp);
     background-repeat: no-repeat;
-    width: 500px;
+    width: 900px;
     height: 500px;
     background-size: 100% 100%;
+    color: black;
+    background-color: #ddd;
     
 
 }
@@ -84,7 +90,24 @@ button{
 }
 #form{
     display: flex;
+    width: 100%;
     
+    
+}
+.words{
+    background-color: orange;
+    color: #ddd;
+    padding: 20px;
+}
+.to{
+    background-color: blue;
+    color: #ddd;
+    padding: 15px;
+}
+.send{
+    background-color: blue;
+    color: #ddd;
+    padding: 15px;
 }
 .quotation{
     display: flex;
